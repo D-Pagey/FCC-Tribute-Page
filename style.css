@@ -1,3 +1,48 @@
-.jumbotron {
-  margin-top: 2%;
+* {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greyBox {
+  border-radius: 10px;
+  background-color: #eee;
+  max-width: 70%;
+  margin-top: 2em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  margin: 15px 10px 20px 20px;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: lighter;
+  margin: 10px;
+  color: black;
+}
+
+.italic {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 1.1em;
+  padding-left: 10px;
+}
+
+.picture {
+  border: 1px solid blue;
+}
+
+span {
+  font-weight: bold;
 }
