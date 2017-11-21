@@ -22,15 +22,16 @@
 h1 {
   font-size: 3.5em;
   font-weight: lighter;
-  margin: 10px;
+  margin-left: 4%;
   color: black;
+  width: 100%;
 }
 
 .italic {
   font-weight: lighter;
   font-style: italic;
   font-size: 1.1em;
-  padding-left: 10px;
+  margin-left: 4%;
 }
 
 figure {
@@ -50,10 +51,10 @@ figure figcaption {
 }
 
 section {
-  border: 1px solid red;
   width: 92.5%;
   margin: 1em 0 1em 0;
   align-self: center;
+  border: 1px solid green;
 }
 
 section h4 {
@@ -64,6 +65,19 @@ section ul {
   list-style-type: none;
 }
 
-span {
+.bold {
   font-weight: bold;
+}
+
+button {
+  margin: 1em 0 3.75% 3.75%;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.footer {
+  align-self: flex-end;
+  margin: 1em 3.75% 3.75% 0;
+  display: inline-block;
+  border: 1px solid blue;
 }
