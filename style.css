@@ -72,12 +72,16 @@ section ul {
 button {
   margin: 1em 0 3.75% 3.75%;
   display: inline-block;
-  border: 1px solid red;
+  padding: 1%;
+  border-radius: 2px;
 }
 
 .footer {
   align-self: flex-end;
   margin: 1em 3.75% 3.75% 0;
   display: inline-block;
-  border: 1px solid blue;
+}
+
+a {
+  text-decoration: none;
 }
