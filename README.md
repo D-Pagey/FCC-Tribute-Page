@@ -4,6 +4,6 @@
 1. I can view a tribute page with an image and text.
 2. I can click on a link that will take me to an external website with further information on the topic.
 
-In this project I simply used Bootstrap, hence why there is no real styling. It's a very basic page however, for my 1st project, I think it served it's purpose well.
+This is my first Front End project. I originally did it using Bootstrap without fully understanding how Bootstrap worked (I still don't). I have now redone this project by getting rid of Bootstrap and coding it all in native CSS.
 
-You can see this [Tribute Page](https://codepen.io/Pagey/pen/GmOYdm) on CodePen.
+You can see a demo of this [Tribute Page](https://codepen.io/Pagey/pen/GmOYdm) project on CodePen.
