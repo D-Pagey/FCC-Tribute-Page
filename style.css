@@ -8,7 +8,7 @@
   border-radius: 0.5em;
   background-color: #eee;
   width: 65%;
-  margin: 2em auto 2em;
+  margin: 2em auto;
   max-width: 850px;
 }
 
@@ -20,7 +20,7 @@
 
 .header {
   margin: 2em;
-  width: 75%;
+  width: 90%;
 }
 
 .title {
@@ -117,4 +117,44 @@
 .freecodecamp {
     text-decoration: none;
     color: #007bff;
+}
+
+/* Media Queries: Phones */
+
+@media only screen and (max-width: 415px) {
+  * {font-size: 10px;}
+
+  .greybox {
+    width: 92.5%;
+    margin: 1.5em auto;
+  }
+
+  .header {
+    margin: 1em;
+  }
+
+  .details {
+    margin: 1em 0 0 0;
+  }
+
+  .stat-name {
+    width: 25%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+  }
+
+  .more-info {
+    align-self: center;
+    margin: 0 0 1em 0;
+  }
+
+  .signature {
+    margin: 0 0 2em 0;
+    padding: 0;
+  }
+
 }
