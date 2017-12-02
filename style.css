@@ -78,7 +78,7 @@
 .stat-name {
   display: inline-block;
   font-weight: bold;
-  width: 12%;
+  width: 15%;
 }
 
 .website {
@@ -129,17 +129,11 @@
     margin: 1.5em auto;
   }
 
-  .header {
-    margin: 1em;
-  }
+  .header {margin: 1em;}
 
-  .details {
-    margin: 1em 0 0 0;
-  }
+  .details {margin: 1em 0 0 0;}
 
-  .stat-name {
-    width: 25%;
-  }
+  .stat-name {width: 25%;}
 
   .footer {
     flex-direction: column;
@@ -156,5 +150,35 @@
     margin: 0 0 2em 0;
     padding: 0;
   }
+}
 
+/* Media Queries: Tablets */
+@media only screen and (min-width: 416px) and (max-width: 599px) {
+  * {font-size: 12px;}
+
+  .greybox {
+    width: 92.5%;
+    margin: 1.5em auto;
+  }
+
+  .stat-name {width: 20%;}
+
+  .footer {margin: 0;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+  * {font-size: 14px;}
+
+  .greybox {width: 85%;}
+
+  .stat-name {width: 20%;}
+}
+
+/* Media Queries: iPads */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  * {font-size: 14px;}
+
+  .greybox {width: 80%;}
+
+  .stat-name {width: 20%;}
 }
