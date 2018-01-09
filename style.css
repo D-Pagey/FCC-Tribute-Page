@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-.material-icons.md-18 {
-  font-size: 18px;
-}
-
 .greybox {
   background-color: #eee;
   border-radius: .5em;
@@ -22,6 +18,9 @@
   flex-direction: column;
 }
 
+/**
+  * Title section
+*/
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -34,6 +33,19 @@
   color: #343a40;
   font-size: 3.5em;
   font-weight: 100;
+}
+
+.headline {
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 100;
+}
+
+/**
+  * Modal
+*/
+.material-icons.md-18 {
+  font-size: 18px;
 }
 
 .modal-container {
@@ -60,6 +72,7 @@
 
 .modal-title {
   color: green;
+  font-size: 1.1em;
   padding: .5em;
   text-decoration: underline;
   width: 7em;
@@ -86,13 +99,7 @@
 
 .modal-about::backdrop {
   background: darkgray;
-  opacity: 0.8;
-}
-
-.headline {
-  font-size: 1.25em;
-  font-style: italic;
-  font-weight: 100;
+  opacity: 0.85;
 }
 
 .horizontal-rule {
@@ -147,7 +154,7 @@
 }
 
 .hr-margin {
-  margin: 1.5em 0 1.5em;
+  margin: 1.5em 0;
   width: 100%;
 }
 
@@ -163,19 +170,16 @@
   border-radius: 2px;
   color: #17a2b8;
   font-size: 1.1em;
-  margin: 0 0 3.75% 3.75%;
   padding: .5em .65em;
 }
 
 .more-info .link {
   color: #17a2b8;
-  font-size: 1.05em;
+  font-size: 1.15em;
 }
 
 .signature {
   align-self: center;
-  margin: 0 3.75% 3.75% 0;
-  padding-right: 1%;
 }
 
 .freecodecamp {
@@ -184,7 +188,6 @@
 }
 
 /* Media Queries: Phones */
-
 @media only screen and (max-width: 415px) {
   * {font-size: 10px;}
 
