@@ -73,6 +73,8 @@
 }
 
 .modal-cancel {
+  background-color: transparent;
+  border: none;
   float: right;
 }
 
