@@ -83,7 +83,7 @@
 }
 
 .modal-title {
-  color: #1b5e20;
+  color: royalblue;
   font-size: 1.1em;
   padding: .5em;
   text-decoration: underline;
@@ -138,7 +138,6 @@
 /**
   * Stats
 */
-
 .details {
   align-self: center;
   margin: 1em 0 0;
@@ -228,15 +227,28 @@
   .material-icons.md-14 {
     font-size: 20px;
   }
+
+  .signature,
+  .freecodecamp {
+    font-size: 0.85rem;
+  }
 }
 
 @media only screen and (min-width: 620px) {
   * {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .title {
+    width: 75%;
   }
 }
 
 @media only screen and (min-width: 690px) {
+  .greybox {
+    width: 75%;
+  }
+
   .title {
     margin: 1rem 0 0 1.5rem;
     width: 60%;
@@ -259,10 +271,14 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
+  * {
+    font-size: 16px;
+  }
+
   .greybox {
     margin-top: 2em;
-    width: 80%;
+    width: 75%;
   }
 
   .title {
@@ -286,7 +302,7 @@
   }
 
   .modal-title {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 
   .modal-text,
@@ -308,9 +324,17 @@
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .greybox {
+    width: 65%;
+  }
+
+
+}
+
 @media only screen and (min-width: 1400px) {
   * {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .title {
@@ -327,7 +351,7 @@
   }
 
   .material-icons.md-14 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .modal-about {
@@ -345,7 +369,7 @@
 
 @media only screen and (min-width: 2000px) {
   * {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   .title {
@@ -364,11 +388,7 @@
   }
 
   .material-icons.md-14 {
-    font-size: 60px;
-  }
-
-  .modal-title {
-    font-size: 2em;
+    font-size: 40px;
   }
 
   .modal-text,
