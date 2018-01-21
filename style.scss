@@ -32,7 +32,6 @@
   }
   @include mediaQueries(900px) {
     margin-top: 2em;
-    width: 75%;
   }
   @include mediaQueries(1024px) {
     width: 65%;
@@ -143,9 +142,6 @@
     font-size: 24px;
   }
   @include mediaQueries(900px) {
-    font-size: 30px;
-  }
-  @include mediaQueries(1400px) {
     font-size: 30px;
   }
   @include mediaQueries(2000px) {
