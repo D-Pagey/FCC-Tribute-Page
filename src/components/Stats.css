@@ -1,0 +1,51 @@
+.details {
+  align-self: center;
+  margin: 1em 0 0;
+  width: 92.5%; }
+
+.stats-title {
+  text-decoration: underline; }
+  @media screen and (min-width: 1400px) {
+    .stats-title {
+      font-size: 1.15rem; } }
+  @media screen and (min-width: 2000px) {
+    .stats-title {
+      font-size: 1.5em; } }
+
+.stats-container {
+  list-style-type: none; }
+
+.stat-name {
+  display: inline-block;
+  font-weight: bold;
+  width: 6em; }
+  @media screen and (min-width: 1400px) {
+    .stat-name {
+      font-size: 1.15rem; } }
+  @media screen and (min-width: 2000px) {
+    .stat-name {
+      font-size: 1.5em; } }
+
+@media screen and (min-width: 1400px) {
+  .stat {
+    font-size: 1.15rem; } }
+@media screen and (min-width: 2000px) {
+  .stat {
+    font-size: 1.5em; } }
+
+.website {
+  color: #007bff;
+  text-decoration: none; }
+  @media screen and (min-width: 1400px) {
+    .website {
+      font-size: 1.15rem; } }
+  @media screen and (min-width: 2000px) {
+    .website {
+      font-size: 1em; } }
+
+@media screen and (min-width: 1400px) {
+  .text {
+    font-size: 1.15rem; } }
+@media screen and (min-width: 2000px) {
+  .text {
+    font-size: 1.5em; } }

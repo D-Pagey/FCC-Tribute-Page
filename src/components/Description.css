@@ -1,0 +1,11 @@
+.horizontal-rule {
+  align-self: center;
+  border: 0;
+  border-top: 1px solid;
+  color: rgba(0, 0, 0, 0.1);
+  margin: .01em 0 1em;
+  width: 92.5%; }
+
+.hr-margin {
+  margin: 1.25em 0;
+  width: 100%; }

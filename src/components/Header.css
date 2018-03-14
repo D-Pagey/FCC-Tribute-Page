@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem; }
+
+.title {
+  color: #343a40;
+  font-size: 2.2em;
+  font-weight: 100;
+  margin: .5rem 0 0 1rem; }
+  @media screen and (min-width: 430px) {
+    .title {
+      margin-top: 1rem; } }
+  @media screen and (min-width: 620px) {
+    .title {
+      width: 75%; } }
+  @media screen and (min-width: 690px) {
+    .title {
+      margin: 1rem 0 0 1.5rem;
+      width: 60%; } }
+  @media screen and (min-width: 900px) {
+    .title {
+      font-size: 3em; } }
+  @media screen and (min-width: 1400px) {
+    .title {
+      margin: 1.5rem 0 0 2rem; } }
+  @media screen and (min-width: 2000px) {
+    .title {
+      font-size: 3.75em;
+      margin: .5em 0 0 .75em;
+      width: 75%; } }
+
+.headline {
+  font-style: italic;
+  font-weight: 100;
+  margin: .25rem 0 0 1rem; }
+  @media screen and (min-width: 690px) {
+    .headline {
+      margin: .5em 0 0 1.5rem; } }
+  @media screen and (min-width: 900px) {
+    .headline {
+      font-size: 1.25rem; } }
+  @media screen and (min-width: 1400px) {
+    .headline {
+      font-size: 1.2em;
+      margin-left: 2rem; } }
+  @media screen and (min-width: 2000px) {
+    .headline {
+      font-size: 1.75em;
+      margin: .5em 0 0 1.65em; } }
