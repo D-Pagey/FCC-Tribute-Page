@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 
-class Stats extends Component {
-  constructor(props) {
-    super(props);
-  }
+import './Stats.css';
 
+class Stats extends Component {
   render() {
     return (
       <div className="details">
@@ -18,8 +16,8 @@ class Stats extends Component {
             <span className="stat copy">American</span></li>
           <li><span className="stat-name copy">Website:</span>
             <span className="stat copy">
-              <a href="http://www.chrissharma.com" target="_blank" className="website copy">
-                ChrisSharma.com</a></span></li>
+              <a href="http://www.chrissharma.com" target="_blank" rel='noreferrer noopener'
+                className="website copy">ChrisSharma.com</a></span></li>
         </ul>
       </div>
     )
