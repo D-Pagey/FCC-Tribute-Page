@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Header.css';
-import Modal from './Modal';
+import Modal from '../Modal';
 
 class Header extends Component {
   render() {
