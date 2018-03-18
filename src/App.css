@@ -14,6 +14,7 @@
 background-color: #eee;
 border-radius: .5em;
 margin: 1em auto;
+max-width: 1000px;
 width: 92.5%; }
 @media screen and (min-width: 430px) {
   .greybox {

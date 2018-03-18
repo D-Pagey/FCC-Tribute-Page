@@ -42,11 +42,8 @@ class Modal extends Component {
                   <li className="story copy">I can click on a link that will take me to an
                     external website with further information on the topic.</li>
                 </ul>
-                <p className="modal-text copy">This project was coded natively without the
-                  use of any libararies or frameworks and it is mobile responsive.
-                  The code can be seen on
-                  <a href="https://github.com/D-Pagey/Tribute" target="_blank" rel='noreferrer noopener'
-                    className="link">Github</a>.</p>
+                <p className="modal-text copy">This project was coded in React using Create-React-App.
+                  The code can be seen on <a href="https://github.com/D-Pagey/Tribute" target="_blank" rel='noreferrer noopener' className='ghLink'>Github</a>.</p>
               </dialog>
             </div>
     )
