@@ -11,8 +11,8 @@ This was my 1st Front End project and one I use to learn new technologies. The m
 
 **Getting Started:**
 
- * Run: `npm install`
- * Run: `npm start` _(in a new terminal)_
- * Goto: `http://localhost:3000/`
+ 1. Run: `npm install`
+ 2. Run: `npm start` _(in a new terminal)_
+ 3. Goto: `http://localhost:3000/`
 
 You can see a Vanilla JS demo of this [Tribute Page](https://codepen.io/Pagey/pen/GmOYdm) project on CodePen.
