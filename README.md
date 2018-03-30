@@ -10,9 +10,8 @@ This was my 1st Front End project and one I use to learn new technologies. The m
 - Fix the ::backdrop CSS element on the Dialog element. It works in the vanilla JS version but not in the React version.
 
 **Getting Started:**
-
  1. Run: `npm install`
  2. Run: `npm start` _(in a new terminal)_
- 3. Goto: `http://localhost:3000/`
+ 3. Go to: `http://localhost:3000/`
 
 You can see a Vanilla JS demo of this [Tribute Page](https://codepen.io/Pagey/pen/GmOYdm) project on CodePen.
