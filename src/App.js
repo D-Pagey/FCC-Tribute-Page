@@ -17,7 +17,6 @@ class App extends Component {
           <Stats />
           <Description />
         </div>
-
         <Footer />
       </div>
     );

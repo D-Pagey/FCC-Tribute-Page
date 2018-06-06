@@ -1,19 +1,21 @@
 .hero-container {
     align-self: center;
-    width: 92.5%; }
+    width: 92.5%; 
+}
 
 .horizontal-rule {
-      align-self: center;
-      border: 0;
-      border-top: 1px solid;
-      color: rgba(0, 0, 0, 0.1);
-      margin: 1em 0 1em;
-      width: 100%;
-     }
+    align-self: center;
+    border: 0;
+    border-top: 1px solid;
+    color: rgba(0, 0, 0, 0.1);
+    margin: 1em 0;
+    width: 100%;
+}  
 
 .hero-img {
     border-radius: .5em;
-    width: 100%; }
+    width: 100%; 
+}
 
 .hero-img-caption {
     color: gray;
@@ -21,10 +23,17 @@
     font-size: .75em;
     font-weight: 400;
     margin-top: .25em;
-    padding-right: .35em; }
-    @media screen and (min-width: 900px) {
-      .hero-img-caption {
-        font-size: 1.1rem; } }
-    @media screen and (min-width: 2000px) {
-      .hero-img-caption {
-        font-size: 1.5em; } }
+    padding-right: .35em; 
+}
+
+@media screen and (min-width: 900px) {
+    .hero-img-caption {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .hero-img-caption {
+        font-size: 1.5em;
+    }
+}

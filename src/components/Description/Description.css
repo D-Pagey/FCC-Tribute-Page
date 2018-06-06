@@ -1,16 +1,14 @@
+.description {
+  align-self: center;
+  width: 92.5%;
+}
+
 .horizontal-rule {
   align-self: center;
   border: 0;
   border-top: 1px solid;
   color: rgba(0, 0, 0, 0.1);
-  margin: .01em 0 1em;
-  width: 92.5%; }
+  margin: 1.25rem 0;
+  width: 100%; 
+}
 
-.hr-margin {
-  margin: 1.25em 0;
-  width: 100%; }
-
-  .description {
-    align-self: center;
-    width: 92.5%;
-  }

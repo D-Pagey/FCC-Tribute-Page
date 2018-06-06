@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './Footer.css';
 
@@ -9,9 +9,9 @@ function Footer() {
         <a href="https://en.wikipedia.org/wiki/Chris_Sharma"
           target="_blank" rel='noreferrer noopener' className="link">More Info</a>
       </button>
-      <p class="signature copy">Written and coded by <a
-        href="https://www.freecodecamp.org/d-pagey" target="_blank" rel='noreferrer noopener'
-          className="freecodecamp copy">Pagey</a>
+      <p className="signature">Written and coded by <a
+        href="https://www.freecodecamp.org/d-pagey" target="_blank" 
+        rel='noreferrer noopener' className="freecodecamp">Pagey</a>
       </p>
     </div>
   )
