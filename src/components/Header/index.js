@@ -1,3 +1,14 @@
-import Header from './Header';
+import React from 'react';
 
-export default Header;
+import './index.css';
+import Modal from '../Modal';
+
+export default function Header() {
+  return (
+    <div className="header">
+      <h1 className="title">Chris Sharma</h1>
+      <Modal />
+      <p className="headline">One of the world's best rock climbers.</p>
+    </div>
+  )
+}
