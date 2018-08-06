@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a Description 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Description />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <hr
+          className="horizontal-rule"
+/>,
+        <p>
+          Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.
+</p>,
+        <hr
+          className="horizontal-rule"
+/>,
+      ],
+      "className": "description",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+        },
+        "ref": null,
+        "rendered": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <hr
+            className="horizontal-rule"
+/>,
+          <p>
+            Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.
+</p>,
+          <hr
+            className="horizontal-rule"
+/>,
+        ],
+        "className": "description",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+          },
+          "ref": null,
+          "rendered": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`render a label 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Description />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <hr
+          className="horizontal-rule"
+/>,
+        <p>
+          Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.
+</p>,
+        <hr
+          className="horizontal-rule"
+/>,
+      ],
+      "className": "description",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+        },
+        "ref": null,
+        "rendered": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "horizontal-rule",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <hr
+            className="horizontal-rule"
+/>,
+          <p>
+            Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.
+</p>,
+          <hr
+            className="horizontal-rule"
+/>,
+        ],
+        "className": "description",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+          },
+          "ref": null,
+          "rendered": "Chris Sharma is an American rock climber. In 2007, NPR wrote that Sharma had been described as the worlds best rock climber. He is known as the master of climbing; by making first ascents of many of the hardest lines of the Cataluña region in Spain and by opening Sharma Climbing BCN in Barcelona in 2015.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "horizontal-rule",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
