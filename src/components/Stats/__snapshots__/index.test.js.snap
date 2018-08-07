@@ -1,0 +1,775 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Stats 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Stats />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="stats-title"
+>
+          Stats:
+</h4>,
+        <ul
+          className="stats-container"
+>
+          <li>
+                    <span
+                              className="stat-name"
+                    >
+                              Full Name:
+                    </span>
+                    <span
+                              className="stat"
+                    >
+                              Chris Omprakash Sharma
+                    </span>
+          </li>
+          <li>
+                    <span
+                              className="stat-name"
+                    >
+                              Birthday:
+                    </span>
+                    <span
+                              className="stat"
+                    >
+                              23rd April 1981
+                    </span>
+          </li>
+          <li>
+                    <span
+                              className="stat-name"
+                    >
+                              Nationality:
+                    </span>
+                    <span
+                              className="stat"
+                    >
+                              American
+                    </span>
+          </li>
+          <li>
+                    <span
+                              className="stat-name"
+                    >
+                              Website:
+                    </span>
+                    <span
+                              className="stat"
+                    >
+                              <a
+                                        className="website"
+                                        href="http://www.chrissharma.com"
+                                        rel="noreferrer noopener"
+                                        target="_blank"
+                              >
+                                        ChrisSharma.com
+                              </a>
+                    </span>
+          </li>
+</ul>,
+      ],
+      "className": "details",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Stats:",
+          "className": "stats-title",
+        },
+        "ref": null,
+        "rendered": "Stats:",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <span
+                            className="stat-name"
+              >
+                            Full Name:
+              </span>
+              <span
+                            className="stat"
+              >
+                            Chris Omprakash Sharma
+              </span>
+</li>,
+            <li>
+              <span
+                            className="stat-name"
+              >
+                            Birthday:
+              </span>
+              <span
+                            className="stat"
+              >
+                            23rd April 1981
+              </span>
+</li>,
+            <li>
+              <span
+                            className="stat-name"
+              >
+                            Nationality:
+              </span>
+              <span
+                            className="stat"
+              >
+                            American
+              </span>
+</li>,
+            <li>
+              <span
+                            className="stat-name"
+              >
+                            Website:
+              </span>
+              <span
+                            className="stat"
+              >
+                            <a
+                                          className="website"
+                                          href="http://www.chrissharma.com"
+                                          rel="noreferrer noopener"
+                                          target="_blank"
+                            >
+                                          ChrisSharma.com
+                            </a>
+              </span>
+</li>,
+          ],
+          "className": "stats-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="stat-name"
+>
+                  Full Name:
+</span>,
+                <span
+                  className="stat"
+>
+                  Chris Omprakash Sharma
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Full Name:",
+                  "className": "stat-name",
+                },
+                "ref": null,
+                "rendered": "Full Name:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Chris Omprakash Sharma",
+                  "className": "stat",
+                },
+                "ref": null,
+                "rendered": "Chris Omprakash Sharma",
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="stat-name"
+>
+                  Birthday:
+</span>,
+                <span
+                  className="stat"
+>
+                  23rd April 1981
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Birthday:",
+                  "className": "stat-name",
+                },
+                "ref": null,
+                "rendered": "Birthday:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "23rd April 1981",
+                  "className": "stat",
+                },
+                "ref": null,
+                "rendered": "23rd April 1981",
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="stat-name"
+>
+                  Nationality:
+</span>,
+                <span
+                  className="stat"
+>
+                  American
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Nationality:",
+                  "className": "stat-name",
+                },
+                "ref": null,
+                "rendered": "Nationality:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "American",
+                  "className": "stat",
+                },
+                "ref": null,
+                "rendered": "American",
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="stat-name"
+>
+                  Website:
+</span>,
+                <span
+                  className="stat"
+>
+                  <a
+                                    className="website"
+                                    href="http://www.chrissharma.com"
+                                    rel="noreferrer noopener"
+                                    target="_blank"
+                  >
+                                    ChrisSharma.com
+                  </a>
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Website:",
+                  "className": "stat-name",
+                },
+                "ref": null,
+                "rendered": "Website:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="website"
+                    href="http://www.chrissharma.com"
+                    rel="noreferrer noopener"
+                    target="_blank"
+>
+                    ChrisSharma.com
+</a>,
+                  "className": "stat",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ChrisSharma.com",
+                    "className": "website",
+                    "href": "http://www.chrissharma.com",
+                    "rel": "noreferrer noopener",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "ChrisSharma.com",
+                  "type": "a",
+                },
+                "type": "span",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="stats-title"
+>
+            Stats:
+</h4>,
+          <ul
+            className="stats-container"
+>
+            <li>
+                        <span
+                                    className="stat-name"
+                        >
+                                    Full Name:
+                        </span>
+                        <span
+                                    className="stat"
+                        >
+                                    Chris Omprakash Sharma
+                        </span>
+            </li>
+            <li>
+                        <span
+                                    className="stat-name"
+                        >
+                                    Birthday:
+                        </span>
+                        <span
+                                    className="stat"
+                        >
+                                    23rd April 1981
+                        </span>
+            </li>
+            <li>
+                        <span
+                                    className="stat-name"
+                        >
+                                    Nationality:
+                        </span>
+                        <span
+                                    className="stat"
+                        >
+                                    American
+                        </span>
+            </li>
+            <li>
+                        <span
+                                    className="stat-name"
+                        >
+                                    Website:
+                        </span>
+                        <span
+                                    className="stat"
+                        >
+                                    <a
+                                                className="website"
+                                                href="http://www.chrissharma.com"
+                                                rel="noreferrer noopener"
+                                                target="_blank"
+                                    >
+                                                ChrisSharma.com
+                                    </a>
+                        </span>
+            </li>
+</ul>,
+        ],
+        "className": "details",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Stats:",
+            "className": "stats-title",
+          },
+          "ref": null,
+          "rendered": "Stats:",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <span
+                                className="stat-name"
+                >
+                                Full Name:
+                </span>
+                <span
+                                className="stat"
+                >
+                                Chris Omprakash Sharma
+                </span>
+</li>,
+              <li>
+                <span
+                                className="stat-name"
+                >
+                                Birthday:
+                </span>
+                <span
+                                className="stat"
+                >
+                                23rd April 1981
+                </span>
+</li>,
+              <li>
+                <span
+                                className="stat-name"
+                >
+                                Nationality:
+                </span>
+                <span
+                                className="stat"
+                >
+                                American
+                </span>
+</li>,
+              <li>
+                <span
+                                className="stat-name"
+                >
+                                Website:
+                </span>
+                <span
+                                className="stat"
+                >
+                                <a
+                                                className="website"
+                                                href="http://www.chrissharma.com"
+                                                rel="noreferrer noopener"
+                                                target="_blank"
+                                >
+                                                ChrisSharma.com
+                                </a>
+                </span>
+</li>,
+            ],
+            "className": "stats-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="stat-name"
+>
+                    Full Name:
+</span>,
+                  <span
+                    className="stat"
+>
+                    Chris Omprakash Sharma
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Full Name:",
+                    "className": "stat-name",
+                  },
+                  "ref": null,
+                  "rendered": "Full Name:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Chris Omprakash Sharma",
+                    "className": "stat",
+                  },
+                  "ref": null,
+                  "rendered": "Chris Omprakash Sharma",
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="stat-name"
+>
+                    Birthday:
+</span>,
+                  <span
+                    className="stat"
+>
+                    23rd April 1981
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Birthday:",
+                    "className": "stat-name",
+                  },
+                  "ref": null,
+                  "rendered": "Birthday:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "23rd April 1981",
+                    "className": "stat",
+                  },
+                  "ref": null,
+                  "rendered": "23rd April 1981",
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="stat-name"
+>
+                    Nationality:
+</span>,
+                  <span
+                    className="stat"
+>
+                    American
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Nationality:",
+                    "className": "stat-name",
+                  },
+                  "ref": null,
+                  "rendered": "Nationality:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "American",
+                    "className": "stat",
+                  },
+                  "ref": null,
+                  "rendered": "American",
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="stat-name"
+>
+                    Website:
+</span>,
+                  <span
+                    className="stat"
+>
+                    <a
+                                        className="website"
+                                        href="http://www.chrissharma.com"
+                                        rel="noreferrer noopener"
+                                        target="_blank"
+                    >
+                                        ChrisSharma.com
+                    </a>
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Website:",
+                    "className": "stat-name",
+                  },
+                  "ref": null,
+                  "rendered": "Website:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="website"
+                      href="http://www.chrissharma.com"
+                      rel="noreferrer noopener"
+                      target="_blank"
+>
+                      ChrisSharma.com
+</a>,
+                    "className": "stat",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ChrisSharma.com",
+                      "className": "website",
+                      "href": "http://www.chrissharma.com",
+                      "rel": "noreferrer noopener",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": "ChrisSharma.com",
+                    "type": "a",
+                  },
+                  "type": "span",
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
